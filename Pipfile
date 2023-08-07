@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = {version = "*", extras = ["standard"]}
+pydantic = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "==1.2.2"
+
 
 [dev-packages]
 
